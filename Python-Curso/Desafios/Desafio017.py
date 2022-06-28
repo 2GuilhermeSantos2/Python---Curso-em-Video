@@ -10,5 +10,9 @@ calcule e mostre o comprimento da hipotenusa.
 
 
 """
+print('='*50 + 'Calculando hipotenusa' + '='*50)
 
-n = float
+co = float(input('Digite o comprimento do cateto oposto: '))
+ca = float(input('Digite o comprimento do cateto adjacente: '))
+hip = hypot(co,ca)
+print('O comprimento da hipotenusa é {:.2f}'.format(hip))

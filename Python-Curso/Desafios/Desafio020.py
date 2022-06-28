@@ -15,6 +15,6 @@ n2 = str(input('Digite o nome do 2ºaluno: '))
 n3 = str(input('Digite o nome do 3ºaluno: '))
 n4 = str(input('Digite o nome do 4ºaluno: '))
 lista = [n1,n2,n3,n4]
-ordem = random.sample(lista, k=len(lista))
+ordem = random.sample(lista, k=2)
 print('A ordem de apresentação de trabalhos será {}'.format(ordem))
 
