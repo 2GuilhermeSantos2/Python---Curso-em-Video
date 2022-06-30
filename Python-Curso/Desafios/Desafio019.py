@@ -10,6 +10,7 @@ Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escol
 
 
 """
+print('='*50 + 'Sorteando Aluno' + '='*50)
 
 n1 = str(input('Digite o nome do 1ºaluno: '))
 n2 = str(input('Digite o nome do 2ºaluno: '))

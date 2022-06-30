@@ -10,6 +10,9 @@ Faça um programa que leia o nome dos quatros alunos e mostre a ordem sorteda.
 
 
 """
+print('='*50 + 'Sorteando ordem de apresentção' + '='*50)
+
+
 n1 = str(input('Digite o nome do 1ºaluno: '))
 n2 = str(input('Digite o nome do 2ºaluno: '))
 n3 = str(input('Digite o nome do 3ºaluno: '))

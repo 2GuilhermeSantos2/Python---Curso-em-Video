@@ -10,6 +10,8 @@ Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
 
 """
 
+
+
 n = int(input('Digite o ângulo que deseja objetor o seno, cosseno e tangente: '))
 
 seno = sin(radians(n))
