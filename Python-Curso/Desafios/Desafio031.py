@@ -8,6 +8,7 @@ cobrando R$0,50 por Km para viagens de até 200km e R$0,45 para viagens mais lon
 
 
 """
+from time import sleep
 
 dv = int(input('Qual a distância da sua viagem? '))
 pn = dv * 0.50
