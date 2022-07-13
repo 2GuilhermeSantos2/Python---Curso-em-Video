@@ -1,7 +1,7 @@
 """
 
 
-Desafio 02
+Desafio 002
 
 Crie um script Python que leia o nome de uma pessoa, e mostre uma mensagem de boas-vinda de acordo com valor digitado
 

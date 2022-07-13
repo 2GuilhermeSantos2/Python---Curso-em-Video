@@ -1,7 +1,7 @@
 '''
 
 
-Desafio 26
+Desafio 026
 
 Faça um programa que leia uma frase pelo teclado e mostre:
 

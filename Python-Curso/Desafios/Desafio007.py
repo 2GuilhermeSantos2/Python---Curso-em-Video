@@ -1,7 +1,7 @@
 """
 
 
-Desafio 07
+Desafio 007
 
 Desenvolva um programa que leia as notas dos 4 bimestre de um aluno, e calcule e mostre sua média.
 
