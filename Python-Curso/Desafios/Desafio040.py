@@ -26,7 +26,7 @@ media = (b1 + b2 + b3 + b4) / 4
 
 if media < 5:
     print('Sua média foi {:.1f}, portanto foi REPROVADO!'.format(media))
-elif media > 5 or media < 7:
+elif  7 > media >= 5:
     print('Sua média foi {:.1f}, portanto esta de RECUPERAÇÃO!'.format(media))
-else:
+elif media >=7:
     print('PARABÉNS sua média foi {:.1f}, portanto foi APROVADO'.format(media))

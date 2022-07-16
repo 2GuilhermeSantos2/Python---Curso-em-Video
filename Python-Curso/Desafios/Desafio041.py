@@ -13,3 +13,23 @@ Acima: Master
 
 
 """
+from datetime import date
+from time import sleep
+ano_atual = date.today().year
+nascimento = int(input('Digite o a seu ano de nascimento: '))
+idade = ano_atual - nascimento
+print('='*50 + 'Confederação Nascional de Natação' + '='*50)
+print('Conferindo seus dados....')
+sleep(1)
+
+if idade <= 9:
+    print('Classificação: MIRIM')
+elif idade > 9 and idade <= 14:
+    print('Classificação: INFANTIL')
+elif idade > 14 and idade <= 19:
+    print(Classificação: 'Classificação: JUNIOR')
+elif idade > 19 and idade <= 20:
+    print('Classificação: Sênior')
+elif idade > 20:
+    print('Classificação: Master')
+

@@ -13,11 +13,16 @@ Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 
 """
 from datetime import date
+from time import sleep
 
 nome = str(input('Digite seu nome: ')).capitalize()
 ano = int(input('Digite o ano que você nasceu: '))
 ano_atual = date.today().year
 idade = atual - nascimento
+print('='*50 + 'Alistamento' + '='*50)
+print('Conferindo seus dados....')
+sleep(1)
+
 if idade == 18:
     print('Você tem que se alistar imediamente {}'.format(nome))
 elif idade < 18:
